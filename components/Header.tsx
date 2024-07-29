@@ -11,7 +11,6 @@ import {
   LiteralUnion,
   ClientSafeProvider,
 } from "next-auth/react";
-import { BuiltInProviderType } from "next-auth/providers";
 import { Link as ScrollLink } from "react-scroll";
 
 const links = [
@@ -28,7 +27,7 @@ const links = [
 const Nav: React.FC = () => {
   const { data: session } = useSession();
   const [providers, setProviders] = useState<Record<
-    LiteralUnion<BuiltInProviderType, string>,
+    string,
     ClientSafeProvider
   > | null>(null);
   const [toggleDropdown, setToggleDropdown] = useState(false);
@@ -43,17 +42,17 @@ const Nav: React.FC = () => {
   const [headerActive, setHeaderActive] = useState(false);
 
   useEffect(() => {
-    const handeScroll = () => {
+    const handleScroll = () => {
       // detect scroll
       setHeaderActive(window.scrollY > 50);
     };
 
     // add scroll event
-    window.addEventListener("scroll", handeScroll);
+    window.addEventListener("scroll", handleScroll);
 
     // clear scroll event
     return () => {
-      window.removeEventListener("scroll", handeScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -118,7 +117,7 @@ const Nav: React.FC = () => {
             </div>
           ) : (
             <>
-              {/* {providers &&
+              {providers &&
                 Object.values(providers).map((provider) => (
                   <button
                     type="button"
@@ -128,7 +127,7 @@ const Nav: React.FC = () => {
                   >
                     Sign in
                   </button>
-                ))} */}
+                ))}
               <div>
                 <Link href="/api/auth/signin">
                   <button className="black_btn">Sign In</button>
@@ -194,7 +193,7 @@ const Nav: React.FC = () => {
             </div>
           ) : (
             <>
-              {/* {providers &&
+              {providers &&
                 Object.values(providers).map((provider) => (
                   <button
                     type="button"
@@ -204,7 +203,7 @@ const Nav: React.FC = () => {
                   >
                     Sign in
                   </button>
-                ))} */}
+                ))}
               <div className=" mr-3">
                 <Link href="/api/auth/signin">
                   <button className="black_btn ">Sign In</button>
