@@ -9,10 +9,11 @@ import CustomeButton from "./CustomeButton";
 import SwiperNavButton from "./SwiperNavButton";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/lib/variants";
+import { Link as ScrollLink } from "react-scroll";
 
 const HeroSlider = () => {
   return (
-    <Swiper className=" h-full ">
+    <Swiper className=" h-[100vh] ">
       <SwiperSlide>
         <div className=" h-full flex justify-end pt-48">
           <div className=" flex flex-col items-center lg:items-start lg:max-w-[700px]">
@@ -23,8 +24,8 @@ const HeroSlider = () => {
               viewport={{ once: false, amount: 0.2 }}
               className=" h1 text-center lg:text-left mb-2"
             >
-              <span className=" text-accent">Where hard</span> work meets
-              success
+              Transform Your <span className=" text-accent">Body</span>{" "}
+              Transform Your <span className="text-accent">Life!</span>
             </motion.h1>
             <motion.p
               variants={fadeIn("up", 0.6)}
@@ -42,15 +43,16 @@ const HeroSlider = () => {
               whileInView={"show"}
               viewport={{ once: false, amount: 0.2 }}
             >
-              <CustomeButton
-                text="Get Started"
-                containerStyles="w-[196px] h-[62px] "
-              />
+              <ScrollLink to="prices" smooth spy>
+                <CustomeButton
+                  text="Get Started"
+                  containerStyles="w-[196px] h-[62px] "
+                />
+              </ScrollLink>
             </motion.div>
           </div>
         </div>
       </SwiperSlide>
-
       <SwiperSlide>
         <div className=" h-full flex justify-end pt-48">
           <div className=" flex flex-col items-center lg:items-start lg:max-w-[700px]">
@@ -71,8 +73,7 @@ const HeroSlider = () => {
               viewport={{ once: false, amount: 0.2 }}
               className=" text-white italic text-center lg:text-left mb-4"
             >
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              porro quisquam sunt aperiam.
+              Unlock your potential and achieve your fitness goals with us!
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.8)}
@@ -80,10 +81,12 @@ const HeroSlider = () => {
               whileInView={"show"}
               viewport={{ once: false, amount: 0.2 }}
             >
-              <CustomeButton
-                text="Get Started"
-                containerStyles="w-[196px] h-[62px] "
-              />
+              <ScrollLink to="prices" smooth spy>
+                <CustomeButton
+                  text="Get Started"
+                  containerStyles="w-[196px] h-[62px] "
+                />
+              </ScrollLink>
             </motion.div>
           </div>
         </div>

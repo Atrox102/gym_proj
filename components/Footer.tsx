@@ -45,7 +45,7 @@ const footerItem = {
 const Footer = () => {
   return (
     <footer className=" bg-primary-300 py-24">
-      <div className="container mx-auto pb-24">
+      <div className="container md:ml-[350px] mx-auto pb-24">
         <motion.div
           variants={footerContainerVariant}
           initial="hidden"
@@ -120,68 +120,7 @@ const Footer = () => {
             </div>
           </motion.div>
           {/* gallery */}
-          <motion.div variants={footerItem}>
-            <h4 className="h4 text-accent mb-4">Gallery</h4>
-            {/* gallery imgs */}
-            <div className=" flex flex-wrap gap-2">
-              <Link href="#">
-                <Image
-                  src={"/assets/img/trainers/david.jpg"}
-                  alt=""
-                  width={100}
-                  height={100}
-                />
-              </Link>
-              <Link href="#">
-                <Image
-                  src={"/assets/img/trainers/matt.jpg"}
-                  alt=""
-                  width={100}
-                  height={100}
-                />
-              </Link>
-              <Link href="#">
-                <Image
-                  src={"/assets/img/trainers/rosy.jpg"}
-                  alt=""
-                  width={100}
-                  height={100}
-                />
-              </Link>
-              <Link href="#">
-                <Image
-                  src={"/assets/img/trainers/sofia.jpg"}
-                  alt=""
-                  width={100}
-                  height={100}
-                />
-              </Link>
-              <Link href="#">
-                <Image
-                  src={"/assets/img/trainers/david.jpg"}
-                  alt=""
-                  width={100}
-                  height={100}
-                />
-              </Link>
-              <Link href="#">
-                <Image
-                  src={"/assets/img/trainers/matt.jpg"}
-                  alt=""
-                  width={100}
-                  height={100}
-                />
-              </Link>
-              <Link href="#">
-                <Image
-                  src={"/assets/img/trainers/sofia.jpg"}
-                  alt=""
-                  width={100}
-                  height={100}
-                />
-              </Link>
-            </div>
-          </motion.div>
+
           {/* newsletter */}
           <motion.div variants={footerItem}>
             <h4 className="h4 text-accent mb-4">Newsletter</h4>

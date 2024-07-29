@@ -12,7 +12,7 @@ const trainerData = [
     name: "David Williams",
     role: "Body Builder Coach",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi facilis hic reprehenderit sequi,",
+      "With over 10 years of experience, John specializes in strength training and muscle building. His dynamic approach and motivational style will push you to new heights. Transform your body with John's expert guidance!",
     social: [
       { icon: FaFacebook, link: "https://facebook.com" },
       { icon: FaTwitter, link: "https://twitter.com" },
@@ -24,7 +24,7 @@ const trainerData = [
     name: "Rosy Rivera",
     role: "Body Builder Coach",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi facilis hic reprehenderit sequi,",
+      "Emily brings her passion for fitness and high-energy routines to every session. As a certified personal trainer, she excels in cardio and functional training. Let Emily's enthusiasm inspire you to achieve your goals!",
     social: [
       { icon: FaFacebook, link: "https://facebook.com" },
       { icon: FaTwitter, link: "https://twitter.com" },
@@ -36,7 +36,7 @@ const trainerData = [
     name: "Matt Stone",
     role: "Body Builder Coach",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi facilis hic reprehenderit sequi,",
+      "Mark's expertise lies in Crossfit and high-intensity interval training. Known for his disciplined approach and relentless drive, he will help you surpass your fitness limits. Get ready to work hard and see results with Mark!",
     social: [
       { icon: FaFacebook, link: "https://facebook.com" },
       { icon: FaTwitter, link: "https://twitter.com" },
@@ -48,7 +48,7 @@ const trainerData = [
     name: "Sofia Lauren",
     role: "Body Builder Coach",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi facilis hic reprehenderit sequi,",
+      "Sarah is a certified fitness coach with a focus on bodybuilding and nutrition. Her personalized programs and attention to detail ensure you get the best results. Sculpt your dream physique with Sarah's expert support!",
     social: [
       { icon: FaFacebook, link: "https://facebook.com" },
       { icon: FaTwitter, link: "https://twitter.com" },
@@ -113,7 +113,7 @@ const Team = () => {
           ))}
         </motion.div>
         {/* btn */}
-        <motion.div
+        {/* <motion.div
           variants={fadeIn("up", 0.6)}
           initial="hidden"
           whileInView={"show"}
@@ -123,7 +123,7 @@ const Team = () => {
             containerStyles="w-[196px] h-[62px]"
             text="See all trainers"
           />
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );

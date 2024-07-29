@@ -17,37 +17,37 @@ const testimonialData = [
   {
     img: "/assets/img/testimonial/lucy.jpg",
     message:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ducimus eius dolores illum alias placeat",
+      "Thanks to the dedicated trainers and top-notch facilities, I achieved my fitness goals faster than I ever imagined. Highly recommend this gym!",
     name: "Lucy Brown",
   },
   {
     img: "/assets/img/testimonial/michael.jpg",
     message:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ducimus eius dolores illum alias placeat",
+      "Joining this gym was a game-changer for me. The supportive community and excellent equipment have made my fitness journey enjoyable and effective.",
     name: "Micheal Smith",
   },
   {
     img: "/assets/img/testimonial/maria.jpg",
     message:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ducimus eius dolores illum alias placeat",
+      "The trainers here truly care about your progress and push you to do your best. I've never felt more motivated and accomplished in my fitness journey.",
     name: "Maria Garcia",
   },
   {
     img: "/assets/img/testimonial/lucy.jpg",
     message:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ducimus eius dolores illum alias placeat",
+      "This gym has everything you need to succeed, from expert trainers to modern equipment. I've seen amazing results and couldn't be happier with my progress.",
     name: "Lucy Brown",
   },
   {
     img: "/assets/img/testimonial/michael.jpg",
     message:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ducimus eius dolores illum alias placeat",
+      "The clean, modern equipment and variety of classes keep me coming back. I've seen significant improvements in my fitness and overall health.",
     name: "Micheal Smith",
   },
   {
     img: "/assets/img/testimonial/maria.jpg",
     message:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ducimus eius dolores illum alias placeat",
+      "The positive atmosphere and knowledgeable trainers have made all the difference. I feel stronger, fitter, and more confident than ever before.",
     name: "Maria Garcia",
   },
 ];

@@ -10,25 +10,25 @@ const classes = [
     name: "Body Building",
     img: "/assets/img/classes/bodybuilding.jpg",
     desiption:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ducimus eius dolores illum alias placeat",
+      "Unleash your inner strength! Our comprehensive bodybuilding programs are designed to help you build muscle, increase strength, and achieve your ideal physique.",
   },
   {
     name: "Cardio",
     img: "/assets/img/classes/cardio.jpg",
     desiption:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ducimus eius dolores illum alias placeat",
+      "Get your heart pumping and calories burning! Our cardio workouts are tailored to improve your endurance, boost your metabolism, and enhance your overall fitness.",
   },
   {
     name: "Fitness",
     img: "/assets/img/classes/fitness.jpg",
     desiption:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ducimus eius dolores illum alias placeat",
+      "Find your perfect fitness routine! From beginners to pros, our diverse fitness classes cater to all levels, ensuring you stay motivated and challenged.",
   },
   {
     name: "Crossfit",
     img: "/assets/img/classes/crossfit.jpg",
     desiption:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ducimus eius dolores illum alias placeat",
+      "Push your limits with Crossfit! Experience high-intensity, functional training that combines strength, endurance, and agility for a full-body workout.",
   },
 ];
 
@@ -74,7 +74,7 @@ const Classes = () => {
               >
                 {item.desiption}
               </motion.p>
-              <motion.div
+              {/* <motion.div
                 variants={fadeIn("up", 0.8)}
                 initial="hidden"
                 whileInView={"show"}
@@ -84,7 +84,7 @@ const Classes = () => {
                   containerStyles="w-[164px] h-[46px]"
                   text="Read More"
                 />
-              </motion.div>
+              </motion.div> */}
             </div>
           </div>
         ))}

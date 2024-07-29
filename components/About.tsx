@@ -12,19 +12,19 @@ const featured = [
     icon: <FaUsers />,
     title: "Award-Winning Trainers",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, voluptate adipisci quasi minima vitae suscipit, corporis alias, voluptatibus nesciunt ullam sit.",
+      "Train with the best! Our certified, award-winning trainers are here to guide you every step of the way, ensuring you reach your fitness goals with expert advice and personalized plans.",
   },
   {
     icon: <IoIosPricetags />,
     title: "Excellent Prices",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, voluptate adipisci quasi minima vitae suscipit, corporis alias, voluptatibus nesciunt ullam sit.",
+      "Achieve your fitness goals without breaking the bank! Our membership plans are competitively priced to offer the best value, making top-tier fitness accessible to everyone.",
   },
   {
     icon: <FaDumbbell />,
     title: "Modern Equipment",
     subtitle:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, voluptate adipisci quasi minima vitae suscipit, corporis alias, voluptatibus nesciunt ullam sit.",
+      "Work out with the latest and greatest! Our gym is equipped with state-of-the-art machines and innovative fitness tools to provide you with a cutting-edge workout experience.",
   },
 ];
 

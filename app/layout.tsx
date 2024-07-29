@@ -3,6 +3,7 @@ import { Oswald, Roboto } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Provider from "@/components/Provider";
 
 const oswald = Oswald({
   subsets: ["latin"],
@@ -31,9 +32,11 @@ export default function RootLayout({
       <body
         className={`${oswald.variable} ${roboto.variable} w-full max-w-[1920px] mx-auto bg-white`}
       >
-        <Header />
-        {children}
-        <Footer />
+        <Provider >
+          <Header />
+          {children}
+          <Footer />
+        </Provider>
       </body>
     </html>
   );

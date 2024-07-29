@@ -43,3 +43,19 @@
 .swiper-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
   @apply bg-accent;
 }
+
+.black_btn {
+  @apply rounded-full border border-white bg-white py-1.5 px-5 text-black transition-all font-roboto hover:bg-black hover:text-white text-center text-sm flex items-center justify-center;
+}
+
+.outline_btn {
+  @apply rounded-full border border-[#dbdbdb] bg-transparent py-1.5 px-5 text-[#dbdbdb] transition-all hover:bg-black hover:text-white text-center text-sm font-roboto flex items-center justify-center;
+}
+
+.dropdown {
+  @apply absolute right-0 top-full mt-3 w-full p-5 rounded-lg bg-primary-200 min-w-[210px] flex flex-col gap-2 justify-center items-center;
+}
+
+.dropdown_link {
+  @apply text-sm font-roboto text-white hover:text-gray-500 font-medium text-center;
+}
