@@ -117,7 +117,7 @@ const Nav: React.FC = () => {
             </div>
           ) : (
             <>
-              {providers &&
+              {/* {providers &&
                 Object.values(providers).map((provider) => (
                   <button
                     type="button"
@@ -127,7 +127,7 @@ const Nav: React.FC = () => {
                   >
                     Sign in
                   </button>
-                ))}
+                ))} */}
               <div>
                 <Link href="/api/auth/signin">
                   <button className="black_btn">Sign In</button>
@@ -193,7 +193,7 @@ const Nav: React.FC = () => {
             </div>
           ) : (
             <>
-              {providers &&
+              {/* {providers &&
                 Object.values(providers).map((provider) => (
                   <button
                     type="button"
@@ -203,7 +203,7 @@ const Nav: React.FC = () => {
                   >
                     Sign in
                   </button>
-                ))}
+                ))} */}
               <div className=" mr-3">
                 <Link href="/api/auth/signin">
                   <button className="black_btn ">Sign In</button>
