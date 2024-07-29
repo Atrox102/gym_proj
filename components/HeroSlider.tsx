@@ -34,8 +34,7 @@ const HeroSlider = () => {
               viewport={{ once: false, amount: 0.2 }}
               className=" text-white italic text-center lg:text-left mb-4"
             >
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              porro quisquam sunt aperiam.
+              Unlock your potential and achieve your fitness goals with us!
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.8)}

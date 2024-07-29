@@ -49,8 +49,7 @@ const About = () => {
             viewport={{ once: false, amount: 0.2 }}
             className=" max-w-[600px] mx-auto text-center"
           >
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
-            consectetur perferendis iste consequatur ab adipisci illo
+            Our dedication is for you to reach your fitness goals!
           </motion.p>
         </div>
         {/* featured items */}
